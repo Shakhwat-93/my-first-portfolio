@@ -1,0 +1,48 @@
+/* fonts family */
+.open-sans{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+      "width" 100;
+  }
+  /* shared styles */
+  .btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    background-color:#116D6E;
+    width: 150px;
+height: 64px;
+
+  }
+    /* nav styles */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px 0 200px;
+  }
+.nav-title{
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+/* text styles */
+.text-red{
+    color: #116D6E;
+    font-size: 80px;
+}
