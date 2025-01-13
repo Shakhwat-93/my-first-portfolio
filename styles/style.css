@@ -16,6 +16,11 @@
     border: none;
     width: 150px;
 height: 64px;
+  }
+  .header{
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 
   }
     /* nav styles */
@@ -46,4 +51,30 @@ nav li a{
 .text-red{
     color: #116D6E;
     font-size: 80px;
+}
+/* Banner style here */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-subtitle{
+  font-size: 45px;
+  font-weight: 600px;
+}
+.banner-title{
+  font-size: 80px;
+}
+.banner-content{
+  width: 585px;
+margin-left: 220px;
+}
+.discription{
+  opacity: 0.6;
+  width: 500px;
+  height: 86px;
+}
+.banner-image{
+  width: 584px;
+  height: 750px;    
 }
