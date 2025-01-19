@@ -7,6 +7,12 @@
       "width" 100;
   }
   /* shared styles */
+  .opacity-text{
+    opacity: 0.6;
+  }
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
   .btn-primary{
     font-size: 20px;
     font-weight: 700;
@@ -75,6 +81,40 @@ margin-left: 220px;
   height: 86px;
 }
 .banner-image{
-  width: 584px;
-  height: 750px;    
+  width:584px;
+  height: 698px;
+  padding-right: 50px;
+}
+.box{
+  position: relative;
+}
+.btn-one{
+  top: -500px;
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about{
+  margin-top: 130px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.tex-align{
+  text-align: center;
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
