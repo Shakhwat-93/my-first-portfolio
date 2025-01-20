@@ -20,8 +20,18 @@
     border-radius: 5px;
     background-color:#116D6E;
     border: none;
-    width: 150px;
+    width: 170px;
 height: 64px;
+  }
+  .contact-btn{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color:#116D6E;
+    border: none;
+    width: 170px;
+    height: 64px;
   }
   .header{
     background-image: url(/images/developer.png), url(/images/header_bg.png);
