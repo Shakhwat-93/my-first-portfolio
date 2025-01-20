@@ -139,3 +139,38 @@ main{
 .resume-download-cv{
   padding: 50px;
 }
+/* footer styles */
+footer{
+  padding: 130px 230px;
+}
+.footer-container{
+  display: flex;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"]{
+  width: 461px;
+  height: 54px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+}
+footer input[type="email"]{
+  width: 461px;
+  height: 54px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+}
+footer textarea{
+  width: 461px;
+height: 180px;
+border: none;
+font-size: 20px;
+padding: 5px;
+margin-bottom: 10px;
+}
